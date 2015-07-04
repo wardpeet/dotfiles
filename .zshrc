@@ -36,7 +36,16 @@ $b atom
 
 # homebrew  - autocomplete on `brew install`
 $b brew
-$b brew-cask
+$b bower
+$b composer
+$b grunt
+$b npm
+
+# git
+$b git
+
+# framework
+$b symfony2
 
 # Tracks your most used directories, based on 'frecency'. 
 $b robbyrussell/oh-my-zsh plugins/z
@@ -53,12 +62,10 @@ $b zsh-users/zsh-syntax-highlighting
 # colors for all files!
 $b trapd00r/zsh-syntax-highlighting-filetypes
 
-# dont set a theme, because pure does it all
-$b sindresorhus/pure
-
 # history search
 $b zsh-users/zsh-history-substring-search
 
+antigen theme ys
 
 # Tell antigen that you're done.
 antigen apply
